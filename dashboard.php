@@ -1,12 +1,12 @@
 <?php
 session_start();
 
-if(!isset($_SESSION['email'])){
+if(!isset($_SESSION['name'])){
     header("Location: index.php");
     exit();
 }
 
-$email = $_SESSION['email'];
+$name = $_SESSION['name'];
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +18,7 @@ $email = $_SESSION['email'];
 </head>
 <body>
     <h1>Painel de controle</h1>
-    <p>Seja bem vindo<?php echo $email; ?> </p>
+    <p>Seja bem vindo <?php echo $name; ?> </p>
 
     <a href="logout.php">Sair</a>
 

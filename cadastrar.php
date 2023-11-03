@@ -41,6 +41,6 @@
         <input type="password" name="confSenha">
         <button type="submit" name="cadastrar">Cadastrar</button>
     </form>
-    <a href="index.php">Voltar para tela de login</a>
+    <a href="index.php">Voltar</a>
 </body>
 </html>
